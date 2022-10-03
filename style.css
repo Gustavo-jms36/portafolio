@@ -1,0 +1,495 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1d2c;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+p {
+  color: #e5e5e5;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+li a.active,
+li a:hover {
+  color: #f1a600;
+  transition: 0.5s;
+}
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+.perfil {
+  margin-bottom: 50px;
+}
+
+.rectangulo1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  z-index: -1;
+}
+
+.info {
+  text-align: center;
+}
+.info h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 300px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.years {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 300px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+.years span {
+  color: #f1a600;
+}
+
+.social img {
+  padding: 4px;
+}
+
+.foto {
+  width: 100%;
+  height: 250px;
+  background-image: url("./img/photo\ mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rectangulo2 {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.acerca-de-mi {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #262837;
+}
+
+.acerca-de-mi h2 {
+  margin: 100px 0 40px 0;
+}
+
+.acerca-de-mi p {
+  padding: 0 30px;
+  margin-bottom: 50px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.card1 {
+  margin-bottom: 50px;
+}
+
+.card1 img {
+  width: 20%;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 15px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiencia h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.expe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.info-expe h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.info-expe p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.expe .expe-anos {
+  font-size: 16px;
+}
+
+.expe .tiempo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.expe img {
+  width: 15%;
+}
+
+.habilidades {
+  position: relative;
+  padding-top: 50px;
+}
+
+.rectangulo3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.habilidad {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 0 30px 50px;
+}
+
+.habilidades h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.habilidad span {
+  color: #f1a600;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.habilidad p {
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 200px;
+}
+
+.portafolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin: 100px 0;
+}
+
+.folio {
+  position: relative;
+}
+
+.fondo {
+  position: absolute;
+  right: 10;
+  width: 90%;
+  background-color: #f1a600;
+  z-index: -1;
+  margin-left: 23px;
+}
+
+.foto2 {
+  position: relative;
+  width: 85%;
+  margin: 25px 0 0 35px;
+}
+
+.sin-fondo {
+  background-color: #262837;
+}
+
+.rectangulo4 {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.contacto {
+  width: 100%;
+  background-color: #262837;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto h2 {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.contact img {
+  width: 25%;
+}
+
+.contact h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e5e5e5;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262837;
+}
+
+@media (max-width: 952px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    position: relative;
+    display: block;
+    z-index: 10;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover,
+  li a.active {
+    background: none;
+    color: #f1a600;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+@media (min-width: 900px) {
+
+   h2 {
+      font-size: 40px;
+      font-weight: 600;
+   }
+
+   .perfil {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 55px;
+  }
+
+  .info {
+   display: flex;
+   flex-direction: column;
+   align-self: flex-start;
+   text-align: left;
+   margin-left: 80px;
+   margin-top: 10px;
+  }
+
+  .rectangulo1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    z-index: -1;
+  }
+
+  .foto {
+    width: 70%;
+    height: 70vh;
+    background-image: url("./img/photo\ desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+  .info h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .descripcion {
+   width: 100%;
+   font-size: 18px;
+   font-weight: 400;
+   margin-left: 0;
+   margin-bottom: 30px;
+ }
+
+ .years {
+   font-size: 18px;
+   font-weight: 400;
+   margin: 0;
+   margin-bottom: 40px;
+ }
+
+ .social img {
+   width: 40px;
+   margin: 10px 15px 0 0;
+ }
+  .acerca-de-mi {
+   position: relative;
+  }
+
+ .rectangulo2 {
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+ }
+
+ 
+
+ .cards {
+   width: 50%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+ }
+
+ .card1 img {
+   width: 40%;
+ }
+
+ 
+
+ .acerca-de-mi p {
+   font-size: 18px;
+   font-weight: 400;
+   margin: auto;
+   margin-bottom: 50px;
+   line-height: 1.5;
+   text-align: center;
+   max-width: 800px;
+
+ }
+
+ .expe .tiempo {
+   margin-left: 150px;
+ }
+
+ .habilidad span {
+   font-size: 40px;
+   margin-left: 100px;
+ }
+
+ .rectangulo3 {
+   position: absolute;
+   width: 100%;
+   z-index: -1;
+ }
+
+ .habilidad p {
+   max-width: 600px;
+ }
+
+ .grid-port {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: space-between;
+   gap: 50px;
+ }
+
+ .grid-contact {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: space-around;
+   gap: 10px;
+ }
+
+ footer {
+   background-color: transparent;
+ }
+
+}
